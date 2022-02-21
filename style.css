@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('assets/fonts/Work_Sans/WorkSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('assets/fonts/Work_Sans/WorkSans-Regular.ttf');
+}
+body{
+    background: #efcb91;
+}
+.display {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+    
+}
+.display h1{
+    font-size: 35px;
+    color: #000;
+}
+.temp_calculator {
+    width: 515px;
+    margin: 170px auto;
+    background-color: #efefef;
+}
+form {
+    padding: 15px;
+}
+h4.title {
+    background: -webkit-linear-gradient(left, #a445f2, #fa4299);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+.calculator_input {
+    float: left;
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    padding: 8px;
+}
+.result_area label {
+    width: 18%;
+    float: left;
+}
+.result_area input {
+    width: 82%;
+}
+.calculator_value label {
+    width: 36%;
+    float: left;
+}
+.calculator_value input {
+    width: 64%;
+}
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 0px 23px;
+    margin-bottom: 30px;
+}
+
+.result_area {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+button#convert {
+    float: right;
+}
+button.cal-btn {
+    width: 45%;
+    padding: 12px;
+    border: none;
+    background: -webkit-linear-gradient(left, #a445f2, #fa4299);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+}
+select {
+    padding: 5px;
+}
